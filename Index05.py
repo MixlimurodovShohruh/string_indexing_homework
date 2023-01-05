@@ -6,4 +6,9 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    x1 = s[0]
+    count =0
+    if x1>='0' and x1<='9':
+        count+=1
+    return count
+print(main("12340"))
