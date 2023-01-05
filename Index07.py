@@ -6,4 +6,6 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    ans=s[n]
+    return ans
+print(main("good", 3))
